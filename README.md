@@ -1,4 +1,31 @@
-# wjx_ssm
+SSM配置介绍
+目录
+一. 项目结构图	2
+二. 配置文件介绍	3
+2.1 配置文件	3
+a. applicationContext.xml	3
+b. mybatis-config.xml	4
+c. spring-mvc-servlet.xml	5
+d. spring-redis.xml	6
+2.2 properties文件	7
+a. jdbc.properties	7
+b. log4j.properties	8
+c. redis.properties	9
+2.3 web.xml配置	9
+2.4 pom.xml配置文件	11
+2.5 mapper.xml的配置	16
+2.6 redis缓存中间类(Spring注入redis连接池)	17
+2.7 RedisCache缓存类	17
+2.8 userList.jsp代码	21
+三. 测试ssm配置是否成功	27
+1. 启动tomcat程序	27
+2. 在浏览器输入地址	27
+3. 验证redis二级缓存是否生效	28
+四. 打包部署到服务器上面发布出去	32
+1. Maven项目打包	32
+2. 部署到服务器	33
+五. 注意事项	34
+
 一.项目结构图
 
 
